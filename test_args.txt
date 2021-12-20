@@ -1,0 +1,3 @@
+./ProjectQA/data/testset1
+1999-W07-5
+1999-W08-1
