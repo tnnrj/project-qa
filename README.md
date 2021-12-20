@@ -13,6 +13,7 @@ This script assigns a score to each sentence based on:
  - Distributional similarity of word embeddings
  - Named entity recognition
  - Sentence root identification
+
 Then, attempts to filter the sentence down to relevant noun phrases or named entities.
 Detailed explanation contained in [these slides](https://docs.google.com/presentation/d/17C0Ydxh-qrx1wxoOcOgdqoaY-lh3Fm16G3g9pSN_UXQ)
 
