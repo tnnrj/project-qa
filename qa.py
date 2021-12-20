@@ -143,8 +143,8 @@ if os.name == 'nt':
 nlp = spacy.load('en_core_web_lg')
 
 if os.name == 'nt':
-    stopwords = {w.strip() for w in open("./ProjectQA/data/training/stopwords.txt").readlines()}
-    w2v = gensim.models.KeyedVectors.load("./ProjectQA/data/training/word2vec.vectors", mmap='r')
+    stopwords = {w.strip() for w in open("./data/training/stopwords.txt").readlines()}
+    w2v = gensim.models.KeyedVectors.load("./data/training/word2vec.vectors", mmap='r')
     out_file = open("all.answers", "w")
 else:
     stopwords = {w.strip() for w in open("./data/training/stopwords.txt").readlines()}
