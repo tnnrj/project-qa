@@ -1,0 +1,3 @@
+pip3 install spacy
+pip3 install gensim
+python -m spacy download en_core_web_lg
