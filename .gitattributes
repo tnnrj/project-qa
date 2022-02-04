@@ -1,2 +1,2 @@
-data/* linguist-detectable=false
-scoring program/* linguist-detectable=false
+data/* linguist-vendored
+*.pl linguist-vendored
