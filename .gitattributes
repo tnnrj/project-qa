@@ -1,2 +1,5 @@
 data/* linguist-vendored
 *.pl linguist-vendored
+*.story linguist-vendored
+*.answers linguist-vendored
+*.questions linguist-vendored
